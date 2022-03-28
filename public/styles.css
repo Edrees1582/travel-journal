@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 10.24px;
+}
+
+header div {
+    color: white;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    gap: 7px;
+    align-items: center;
+    font-size: 14.46px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 40px;
+}
+
+.card {
+    display: flex;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 19px;
+}
+
+.image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    image-rendering: pixelated;
+}
+
+.google-maps {
+    color: #918E9B;
+    margin-left: 7px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.desc {
+    max-width: 326px;
+}
+
+@media (min-width: 555px) {
+    .cards {
+        align-items: center;
+    }
+}
